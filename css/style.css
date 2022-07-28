@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  display: grid;
+  height: 50%;
+  background: #000000;
+  align-items: center;
+}
+/* header titulo */
+header {
+  display: block;
+  font-family: cursive;
+  color:#09e;
+  text-align: center;
+  margin: 1.5rem;
+  font-size: 0.8rem;
+}
+
+/* Main contegem regressima */
+.countdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 25rem));
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.635rem;
+}
+
+.countdown li {
+  margin: 0 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  padding: 0.25rem;
+  color: #09e;
+  background: #1e1e1e;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.countdown li span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+
+.imagens {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.imagem {
+  justify-content: space-between;
+  width: 10rem;
+  height: 10rem;
+ }
