@@ -1,6 +1,6 @@
 import Countdown from './countdown.js'
 
-const tempoParaSabado = new Countdown('30 july 2022 18:30:00 GMT-0300')
+const tempoParaSabado = new Countdown('5 august 2022 18:30:00 GMT-0300')
 
 const tempos = document.querySelectorAll('[data-time]')
 
